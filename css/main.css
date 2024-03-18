@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lahore Gurmukhi', Arial, Helvetica, sans-serif; 
+    background-color: white;
+}
+h1, h2, h3, h4, h5, p, a{
+	margin-top:0;
+}
+
+
+a{
+    color: white;
+    background-color: #1C3052;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover{
+    background-color: red;
+}
+p, ul, ol{
+	font-size:1rem;
+	
+}
+
+figure{
+	margin:0;
+}
+
+[id]{
+	scroll-margin-top:3ex;
+}
+
+
+
+/*-------------------------------------------------------------Main Content------------------------------------------------------*/
+
+
+main{
+	padding: 1rem;
+	margin: 0 auto;
+	max-width: 60vw;
+}
+
+main section{
+	background-color: white;
+	padding: 1rem;
+	margin-bottom: 2rem;
+	border-radius: 1rem;
+}
+
+/*---------------------------------------------------------Grid Content------------------------------------------------------------------*/
+
+/*---------------------------------------------------------Hero Content--------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------
