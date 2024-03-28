@@ -1,132 +1,242 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>Learning Styling</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/main.css">
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <title>Learning Styling</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/stylesheet.css" />
+  </head>
 
-<body id="top">
-	<header>
-		<img class="logo" src="./img/Logo.png " alt="It's a logo with mountain shapes and Kalmont name under them" width="79" height="58">
+  <body id="top">
+    <header class="outer-container header-container">
+      <nav class="inner-container">
+        <a href="index.html">
+          <img
+            src="./img/Logo.png "
+            alt="It's a logo with mountain shapes and Kalmont name under them"
+            width="79"
+            height="58"
+        /></a>
+        <a href="about.html">ABOUT US</a>
+        <a href="safety.html">SAFETY RISK & AWARENESS</a>
+        <a href="events.html">EVENTS</a>
+        <a href="contact.html">CONTACT US</a>
+        <a href="news.html">WEATHER</a>
+        <img src="img/Weather_Icon.svg" alt="weather icon" />
+        <a href="search"></a>
+        <input type="text" placeholder="Search.."/>
+        <img src="img/ic-baseline-search.svg" alt="search icon" />
+      </nav>
+    </header>
 
-		<nav>
-			<a href="#intro">ABOUT US</a> 
-			<a href="#d.156.3">SAFETY RISK & AWARENESS</a>
-			<a href="#leggera">EVENTS</a>
-			<a href="default.html">WEATHER</a> <img src="./img/Weather_Icon.svg" alt="Weather icon"/> 
-		</nav>
+    <section class="hero outer-container">
+      <div class="hero-text inner-container">
+        <h1 class="heading">Kalmont Mountain Safety And Rescue Organization</h1>
+        <h2>Winter Wilderness Safety and our mountain safety organization</h2>
+      </div>
+    </section>
 
-	<!-- <img class="hero" src="img/molteni-hero-1200.jpg" width="1200" height="645" alt="Two d.156.3 armchairs facing each other in a room with grey curtains"> -->
-	</header>
+    <!-- end of hero section -->
 
-	<section class="hero">
-		<picture>
-			
-				<img src="img/hero-banner.jpg" width="1280" height="470" alt="snowy mountains">
-			</picture>
-	
-		<div class="hero-text">
-			<h2>KALMONT MOUNTAIN SAFETY AND RESCUE ORGANIZATION</h2>
-			<p>Winter Wilderness Safety and our mountain safety organization</p>
-		</div>
-	</section><!-- end of hero section -->
-	
-	<main>
-		<section id="intro">
-			
-			<p>Explore the winter wonders of the Kalmont Mountains with confidence, knowing that Kalmont Mountain Safety and Rescue Team is dedicated to providing the knowledge, support, and emergency response needed to make your winter adventures both thrilling and safe. Your winter wilderness experience starts here – prepared, informed, and secure.</p>
-		</section><!-- end of intro -->
+    <main class="outer-container">
+      <div class="intro inner-container">
+        <p>
+          Explore the winter wonders of the Kalmont Mountains with confidence,
+          knowing that Kalmont Mountain Safety and Rescue Team is dedicated to
+          providing the knowledge, support, and emergency response needed to
+          make your winter adventures both thrilling and safe. Your winter
+          wilderness experience starts here – prepared, informed, and secure.
+        </p>
+      </div>
+      <!-- end of intro -->
+    </main>
+    
+<!-- NEWS SECTION -->
+  <div class="grid-container outer-container news">
+    <div class="list-body inner-container">
+        <h2>NEWS</h2>
 
+    <div class="news-container">
+      <a href="#">
+        <ul class="news-item">
+          <li class="news-date">
+            <h3 class="date-container">FEB<span class="date">12</span></h3>
+          </li>
+          <li class="news-headline-container">
+            <h3 class="news-headline">Bear Safety</h3>
+          </li>
+          <li class="news-arrow">
+            <img src="img/arrows-right.svg" alt="arrow right icon" />
+          </li>
+        </ul>
+      </a>
+      <a href="#">
+        <ul class="news-item">
+          <li class="news-date">
+            <h3 class="date-container">FEB<span class="date">13</span></h3>
+          </li>
+          <li class="news-headline-container">
+            <h3 class="news-headline">
+              Public Avalanche Warning for Western Canada
+            </h3>
+          </li>
+          <li class="news-arrow">
+            <img src="img/arrows-right.svg" alt="arrow right icon" />
+          </li>
+        </ul>
+      </a>
 
-		<section class="hero">
-		<picture>
-				<img src="img/news-banner.jpg" width="1280" height="394" alt="snowy mountains">
-			</picture>
-		<div class="hero-text">
-		
-		<h3> News </h3>
-		<dl>
-			<dt>Feb 12</dt>
-			<dd>Bear Safety</dd> 
-			<a href="default.html"></a> <img src="arrows-right.svg" alt="Arrows icon"/>
-			<dt>Feb 13</dt>
-			<dd>Public Avalanche Warning for Western Canada</dd> 
-			<a href="default.html"></a> <img src="arrows-right.svg" alt="Arrows icon"/>
-			<dt>Feb 14</dt>
-			<dd>Current Conditions</dd> 
-			<a href="default.html"></a> <img src="arrows-right.svg" alt="Arrows icon"/>
-			</dl>
+      <a href="#">
+        <ul class="news-item">
+          <li class="news-date">
+            <h3 class="date-container">FEB<span class="date">14</span></h3>
+          </li>
+          <li class="news-headline-container">
+            <h3 class="news-headline">
+              Current Conditions
+            </h3>
+          </li>
+          <li class="news-arrow">
+            <img src="img/arrows-right.svg" alt="arrow right icon" />
+          </li>
+        </ul>
+      </a>
+    </div>
+  </div>
+</div>
+<!-- end of the section -->
 
-			<section>
-		<picture>
-				<img src="img/current-conditions.jpg" width="187" height="240" alt="green mountains in front and snowy mountains on the back">
-			</picture>
-		<div>
-			<a class="cta-main" href="#">CURRENT CONDITIONS</a>
-		</div>
-			<p>See what the current weather conditions, and what’s coming next.</p>
-	</section><!-- end of the section -->
+<!-- CARDS -->
+  <div class="outer-container">
+      <ul class="inner-container cards">
+        <li class="card-wrapper">
+          <div class="card">
+            <picture class="card-image">
+              <img src="img/current-conditions-card.jpg" alt="green mountains" />
+              <div class="card-overlay-text">
+                <a class="cta-main" href="#">Current Conditions</a>
+              </div>
+            </picture>
+            
+            <p class="card-lower-description">
+              See what the current weather conditions, and what’s coming next.
+            </p>
+          </div>
+         </li>
 
-	<section>
-		<picture>
-				<img src="img/clothing-equipment.jpg" width="187" height="240" alt="hikers on the top of the mountain">
-			</picture>
-		<div>
-			<a class="cta-main" href="#">CLOTHING & EQUIPMENT</a>
-		</div>
-			<p>Don’t be caught out in winter. You need the following clothing & equipment.</p>
-	</section><!-- end of the section -->
+    <li class="card-wrapper">
+      <div class="card">
+        <picture class="card-image">
+          <img src="img/Clothing-Equipment.jpg" alt="hikers in the mountain" />
+          <div class="card-overlay-text">
+            <a class="cta-main" href="#">Clothing & Equipment</a>
+          </div>
+        </picture>
 
-	<section>
-		<picture>
-				<img src="img/safety.jpg" width="187" height="240" alt="the snowy mountain with the snow dust">
-			</picture>
-		<div>
-			<a class="cta-main" href="#">SAFETY</a>
-		</div>
-			<p>Get important information to keep you safe from avalanches and hypothermia.</p>
-	</section><!-- end of the section -->
+      <p class="card-lower-description">
+          Don't be caught out in winter. You need the following clothing &
+          equipment.
+        </p>
+      </div>
+    </li>
 
-<section>
-		<picture>
-				<img src="img/events.jpg" width="187" height="240" alt="the man snowboarding in the snowy mountain">
-			</picture>
-		<div>
-			<a class="cta-main" href="#">EVENTS</a>
-		</div>
-			<p>See what exiting events are coming soon.</p>
-	</section><!-- end of the section -->
+    <li class="card-wrapper">
+      <div class="card">
+        <picture class="card-image">
+          <img src="img/safety-card.jpg" alt="avalance in the mountain" />
+          <div class="card-overlay-text">
+            <a class="cta-main" href="#">Safety</a>
+          </div>
+        </picture>
 
-	<div class="container">
-  <img src="safety.jpg" alt="the snowy mountain with the snow dust" style="width:100%;">
-  <div class="centered">SAFETY RISK & AWARENESS</div>
+        <p class="card-lower-description">
+          Get important information to keep you safe from avalanches and
+          hypothermia.
+        </p>
+      </div>
+    </li>
 
-</div>	
+    <li class="card-wrapper">
+      <div class="card">
+        <picture class="card-image">
+          <img src="img/events-card.jpg" alt="man snowboarding in the snowy mountain" />
+          <div class="card-overlay-text">
+            <a class="cta-main" href="#">Events</a>
+          </div>
+        </picture>
+        
+        <p class="card-lower-description">
+          See what exiting events are coming soon.
+        </p>
+      </div>
+    </li>
+  </ul>
+</div>
+ 
+<!-- end of the section -->
 
-<footer>
-<body>
-	<img class="logo" src="logo.png" alt="It's a logo with mountain shapes and Kalmont name under them" width="79" height="58">
-  <h4>FIFA World Cup top goalscorers</h4>
-  <p> 604-926-5612
-6000 Kalmont Bowl Road, West Vancouver BC
-info@kalmountmountain.ca </p>
+<!-- SAFETY RISK AND AWARENESS -->
 
-  <ol>
-    <li>Search</li>
-    <li>About Us</li>
-    <li>Safety Risk & Awareness</li>
-    <li>Events</li>
-    <li>Contact Us</li>
-    <li>Weather</li>
-  </ol>
-    <small>
-      ©2024 Kalmont Mountain Safety and Rescue Organization. All rights reserved. Kalmont logo is a trademark of Kalmont Mountain Safety and Rescue Organization.
-    </small>
-    <a href="#top">Back to top</a>
-  </footer><!-- end of the footer area -->
+ <div class="button-section">
+  <a href="#" class="button">Safety Risk & Awareness</a>
+</div>
+ <!-- end of the section -->
+   
+ <!-- FOOTER -->
+ <footer class="outer-container">
+  <ul class="inner-container footer-container">
+    <li class="nav-logo">
+      <a href="index.html">
+        <img
+          src="./img/Logo.png "
+          alt="It's a logo with mountain shapes and Kalmont name under them"
+          width="79"
+          height="58"
+      /></a>
+    </li>
+    <li class="address">
+      <h4 class="footer-headline">Address:</h4>
+      <ul class="footer-list">
+        <li>604-926-5612</li>
+        <li>6000 Kalmont Bowl Road, West Vancouver BC</li>
+        <li>info@kalmountmountain.ca</li>
+      </ul>
+    </li>
+
+    <li class="footer-nav">
+      <ul class="footer-list">
+        <li class="nav-level-1">
+          <a href="about.html">About Us</a>
+        </li>
+        <li class="nav-level-1">
+          <a href="safety.html">Safety Risk & Awareness</a>
+        </li>
+        <li class="nav-level-1">
+          <a href="events.html">Events</a>
+        </li>
+        <li class="nav-level-1">
+          <a href="contact.html">Contact Us</a>
+        </li>
+        <li class="nav-level-1">
+          <a href="news.html">Weather</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <ul class="footer_copyright">
+    <li>
+      <small>
+        ©2024 Kalmont Mountain Safety and Rescue Organization. All rights
+        reserved. Kalmont logo is a trademark of Kalmont Mountain Safety and
+        Rescue Organization.
+      </small>
+    </li>
+  </ul>
+</footer>
+ <!-- End of footer. The homepage was done with the help of James Neufeld, lab supervisor.-->
+
 </body>
 </html>
+
