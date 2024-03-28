@@ -1,144 +1,143 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>Learning Styling</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/main.css">
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <title>Learning Styling</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/about.css" />
+  </head>
 
-<body id="top">
-	<header>
-		<img class="logo" src="logo.png" alt="It's a logo with mountain shapes and Kalmont name under them" width="79" height="58">
-
-		<nav>
-			<a href="#intro">ABOUT US</a> 
-			<a href="#d.156.3">SAFETY RISK & AWARENESS</a>
-			<a href="#leggera">EVENTS</a>
-			<a href="default.html">WEATHER</a> <img src="weather_icon.svg" alt="Weather icon"/> 
+  <body id="top">
+	<header class="outer-container header-container">
+		<nav class="inner-container">
+		  <a href="index.html">
+			<img
+			  src="./img/Logo.png "
+			  alt="It's a logo with mountain shapes and Kalmont name under them"
+			  width="79"
+			  height="58"
+		  /></a>
+		  <a href="about.html">ABOUT US</a>
+		  <a href="safety.html">SAFETY RISK & AWARENESS</a>
+		  <a href="events.html">EVENTS</a>
+		  <a href="contact.html">CONTACT US</a>
+		  <a href="news.html">WEATHER</a>
+		  <img src="img/Weather_Icon.svg" alt="weather icon" />
+		  <a href="search"></a>
+		  <input type="text" placeholder="Search.."/>
+		  <img src="img/ic-baseline-search.svg" alt="search icon" />
 		</nav>
+	  </header>
+  
+	  <section class="hero outer-container">
+		<div class="hero-text inner-container">
+		  <h1 class="heading">About Us</h1>
+		</div>
+	  </section>
+	  
+	  <!-- end of hero section-->
 
-	<!-- <img class="hero" src="img/molteni-hero-1200.jpg" width="1200" height="645" alt="Two d.156.3 armchairs facing each other in a room with grey curtains"> -->
-	</header>
-
-	<section class="hero">
-		<picture>
-			
-				<img src="img/about-us-banner.jpg" width="1280" height="460" alt="snowy mountains">
-			</picture>
+	  <main class="outer-container">
+		<div class="intro inner-container">
+		  <p>
+			Welcome to Kalmont Mountain Safety and Rescue Team, where our commitment to safety and unwavering dedication to community service have made us a trusted and essential presence in the rugged landscapes we call home. Nestled in the heart of the majestic Kalmont Mountain range, our team is comprised of highly skilled and passionate individuals who share a common goal: ensuring the safety and well-being of those who venture into these breathtaking but challenging terrains.
+		  </p>
+		</div>
+	  </main>
 	
-		<div class="hero-text">
-			<h2>ABOUT US</h2>
-			
+	<!--end of intro-->
+
+    <section class="image-background-section-01">
+		<div class="text-overlap-01">
+		  <h3 class="section-heading">Our Mission</h3>
+  
+		  <p class="medium-text">
+			At Kalmont Mountain Safety and Rescue Team, our mission is clear - to protect, educate, and assist. We strive to promote outdoor safety and adventure responsibly by offering a wide range of services, including search and rescue operations, emergency medical response, and educational programs focused on wilderness safety.
+		  </p>
 		</div>
-	</section><!-- end of hero section -->
+	  </section>
+
+	<!--end of mission section-->
+
+	<section class="image-background-section-02 right-section">
+		<div class="text-overlap-02">
+		  <h3 class="section-heading-02">Our Staff</h3>
+  
+		  <p class="medium-text">
+			Our team consists of seasoned professionals with diverse backgrounds in emergency response, mountaineering, wilderness medicine, and outdoor education. Each member is rigorously trained to handle the unique challenges presented by the mountainous landscapes, ensuring that we can respond effectively to a variety of situations.
+		  </p>
+		</div>
+	  </section>
+
+	<!--end of mission section-->
+
+	<section class="image-background-section-03">
+		<div class="text-overlap-03">
+		  <h3 class="section-heading-02">What We Do</h3>
+  
+		  <p class="medium-text">
+			Our highly trained team includes cold-weather specialists who are well-versed in the specific dangers and precautions needed for winter activities. From snowshoeing to backcountry skiing, we provide expert guidance to help you navigate the icy terrain with confidence.		  </p>
+		</div>
+	  </section>
+
+	<!--end of what we do section-->
+
 	
-	<main>
-		<section id="intro">
-			
-			<p>Welcome to Kalmont Mountain Safety and Rescue Team, where our commitment to safety and unwavering dedication to community service have made us a trusted and essential presence in the rugged landscapes we call home. Nestled in the heart of the majestic Kalmont Mountain range, our team is comprised of highly skilled and passionate individuals who share a common goal: ensuring the safety and well-being of those who venture into these breathtaking but challenging terrains.</p>
-		</section><!-- end of intro -->
 
-
-		<section class="hero">
-		<picture>
-				<img src="img/ourmission_01.jpg" width="1060" height="637" alt="the sundown in the mountain and a silhoutte of the tree on the front">
-				<h3>Our Mission</h3>
-				<p>At Kalmont Mountain Safety and Rescue Team, our mission is clear - to protect, educate, and assist. We strive to promote outdoor safety and adventure responsibly by offering a wide range of services, including search and rescue operations, emergency medical response, and educational programs focused on wilderness safety.</p>
-				</picture>
-			</section>
-
-					<section class="hero">
-		<picture>
-				<img src="img/our_staff.jpg" width="1060" height="637" alt="the hikers hiking on the snowy mountain">
-				<h3>Our Staff</h3>
-				<p>Our team consists of seasoned professionals with diverse backgrounds in emergency response, mountaineering, wilderness medicine, and outdoor education. Each member is rigorously trained to handle the unique challenges presented by the mountainous landscapes, ensuring that we can respond effectively to a variety of situations.</p>
-				</picture>
-			</section>
-
-						<section class="hero">
-		<picture>
-				<img src="img/what_we_do.jpg" width="1060" height="637" alt="the hikers hiking on ice">
-				<h3>What We Do</h3>
-				<p>Our highly trained team includes cold-weather specialists who are well-versed in the specific dangers and precautions needed for winter activities. From snowshoeing to backcountry skiing, we provide expert guidance to help you navigate the icy terrain with confidence.</p>
-				</picture>
-			</section>
-
-
-
-
-
-
-
-
-			<section>
-		<picture>
-				<img src="img/current-conditions.jpg" width="187" height="240" alt="green mountains in front and snowy mountains on the back">
-			</picture>
-		<div>
-			<a class="cta-main" href="#">CURRENT CONDITIONS</a>
-		</div>
-			<p>See what the current weather conditions, and what’s coming next.</p>
-	</section><!-- end of the section -->
-
-	<section>
-		<picture>
-				<img src="img/clothing-equipment.jpg" width="187" height="240" alt="hikers on the top of the mountain">
-			</picture>
-		<div>
-			<a class="cta-main" href="#">CLOTHING & EQUIPMENT</a>
-		</div>
-			<p>Don’t be caught out in winter. You need the following clothing & equipment.</p>
-	</section><!-- end of the section -->
-
-	<section>
-		<picture>
-				<img src="img/safety.jpg" width="187" height="240" alt="the snowy mountain with the snow dust">
-			</picture>
-		<div>
-			<a class="cta-main" href="#">SAFETY</a>
-		</div>
-			<p>Get important information to keep you safe from avalanches and hypothermia.</p>
-	</section><!-- end of the section -->
-
-<section>
-		<picture>
-				<img src="img/events.jpg" width="187" height="240" alt="the man snowboarding in the snowy mountain">
-			</picture>
-		<div>
-			<a class="cta-main" href="#">EVENTS</a>
-		</div>
-			<p>See what exiting events are coming soon.</p>
-	</section><!-- end of the section -->
-
-	<div class="container">
-  <img src="safety.jpg" alt="the snowy mountain with the snow dust" style="width:100%;">
-  <div class="centered">SAFETY RISK & AWARENESS</div>
-
-</div>	
-
-<footer>
-<body>
-	<img class="logo" src="logo.png" alt="It's a logo with mountain shapes and Kalmont name under them" width="79" height="58">
-  <h4>FIFA World Cup top goalscorers</h4>
-  <p> 604-926-5612
-6000 Kalmont Bowl Road, West Vancouver BC
-info@kalmountmountain.ca </p>
-
-  <ol>
-    <li>Search</li>
-    <li>About Us</li>
-    <li>Safety Risk & Awareness</li>
-    <li>Events</li>
-    <li>Contact Us</li>
-    <li>Weather</li>
-  </ol>
-    <small>
-      ©2024 Kalmont Mountain Safety and Rescue Organization. All rights reserved. Kalmont logo is a trademark of Kalmont Mountain Safety and Rescue Organization.
-    </small>
-    <a href="#top">Back to top</a>
-  </footer><!-- end of the footer area -->
-</body>
-</html>
+ <!-- FOOTER -->
+ <footer class="outer-container">
+	<ul class="inner-container footer-container">
+	  <li class="nav-logo">
+		<a href="index.html">
+		  <img
+			src="./img/Logo.png "
+			alt="It's a logo with mountain shapes and Kalmont name under them"
+			width="79"
+			height="58"
+		/></a>
+	  </li>
+	  <li class="address">
+		<h4 class="footer-headline">Address:</h4>
+		<ul class="footer-list">
+		  <li>604-926-5612</li>
+		  <li>6000 Kalmont Bowl Road, West Vancouver BC</li>
+		  <li>info@kalmountmountain.ca</li>
+		</ul>
+	  </li>
+  
+	  <li class="footer-nav">
+		<ul class="footer-list">
+		  <li class="nav-level-1">
+			<a href="about.html">About Us</a>
+		  </li>
+		  <li class="nav-level-1">
+			<a href="safety.html">Safety Risk & Awareness</a>
+		  </li>
+		  <li class="nav-level-1">
+			<a href="events.html">Events</a>
+		  </li>
+		  <li class="nav-level-1">
+			<a href="contact.html">Contact Us</a>
+		  </li>
+		  <li class="nav-level-1">
+			<a href="news.html">Weather</a>
+		  </li>
+		</ul>
+	  </li>
+	</ul>
+	<ul class="footer_copyright">
+	  <li>
+		<small>
+		  ©2024 Kalmont Mountain Safety and Rescue Organization. All rights
+		  reserved. Kalmont logo is a trademark of Kalmont Mountain Safety and
+		  Rescue Organization.
+		</small>
+	  </li>
+	</ul>
+  </footer>
+   <!-- End of footer.-->
+   <!-- This website was made for practice by Dzhumasheva Anisa for IXD 108-Coding for Designers class on March 27th, 2024 -->
+  </body>
+  </html>
